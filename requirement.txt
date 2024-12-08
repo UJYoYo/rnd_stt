@@ -1,0 +1,30 @@
+torch==1.10.0+cu102 (?)
+whisper
+tempfile
+os
+
+"numpy<2"
+pyannote.audio==0.0.1
+
+Model was trained with pytorch-lightning 2.0.2, yours is 1.6.5
+
+pip install torch==2.5.1 torchvision==0.20.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+whisperx 3.1.6 requires pyannote.audio==3.1.1, but you have pyannote-audio 0.0.1 which is incompatible.
+whisperx 3.1.6 requires torch>=2, but you have torch 1.13.1 which is incompatible.
+whisperx 3.1.6 requires torchaudio>=2, but you have torchaudio 0.13.1 which is incompatible.
+transformers 4.47.0 requires huggingface-hub<1.0,>=0.24.0, but you have huggingface-hub 0.8.1 which is incompatible.
+torchvision 0.20.1+cu118 requires torch==2.5.1+cu118, but you have torch 1.13.1 which is incompatible.
+tokenizers 0.21.0 requires huggingface-hub<1.0,>=0.16.4, but you have huggingface-hub 0.8.1 which is incompatible.
+lightning 2.4.0 requires torch<4.0,>=2.1.0, but you have torch 1.13.1 which is incompatible.
+faster-whisper 1.1.0 requires huggingface-hub>=0.13, but you have huggingface-hub 0.8.1 which is incompatible.
+
+
+
+whisperx 3.1.6 requires pyannote.audio==3.1.1, but you have pyannote-audio 0.0.1 which is incompatible.
+whisperx 3.1.6 requires torch>=2, but you have torch 1.13.1 which is incompatible.
+whisperx 3.1.6 requires torchaudio>=2, but you have torchaudio 0.13.1 which is incompatible.
+torchvision 0.20.1+cu118 requires torch==2.5.1+cu118, but you have torch 1.13.1 which is incompatible.
+lightning 2.4.0 requires torch<4.0,>=2.1.0, but you have torch 1.13.1 which is incompatible.
